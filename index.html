@@ -4,11 +4,32 @@
     <meta charset="utf-8" />
     <title>MeowPad!</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="search.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Iconscout Link For Icons -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <!-- FontAwesome Link For Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <div class="container">
+
+      <form action="" class="search-form">
+        <input type="text" placeholder="Type to search" class="search-input" />
+
+        <div class="search-button">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <i class="fa-solid fa-xmark search-close"></i>
+        </div>
+      </form>
+    </div>
+
     <div class="popup-box">
       <div class="popup">
         <div class="content">
@@ -38,5 +59,6 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="search.js"></script>
   </body>
 </html>
